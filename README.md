@@ -1,5 +1,5 @@
 # website
 
-https://github.com/wispproject/website/tree/master/Wisp%20Website
+Moved to https://github.com/wispproject/wispproject.github.io
 
-./Wisp%20Website
+This repository will be deleted soon.
