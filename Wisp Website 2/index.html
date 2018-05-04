@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Wisp Currency</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
       <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -21,13 +20,34 @@
 
 <script src="js/vendor/modernizr-3.5.0.min.js"></script>
 <script src="js/main.js"></script>
+<noscript>
+    <style type="text/css">
+      #backg
+      {
+        background-image: url('img/nojsmall.png');
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+
+      }
+      #heyou:hover + .main-nav 
+      {
+        visibility: visible;
+      }
+      .main-nav:hover
+      {
+        visibility: visible;
+      }
+    </style>
+</noscript>
     <!-- Hero -->
   <section class="et-hero-tabs">
-   <div class="test" id="banner">  <div class="hee" style="background-image: url('img/home/test.png');"></div>          <div class="section1-overview-content page-heading">
+   <div class="test" id="banner"><div id="backg">  <div class="hee" style="background-image: url('img/home/test.png');"></div>          <div class="section1-overview-content page-heading">
                 <h2 class="section1-overview-title">Fast. Secure. Private.</h2>
                 <p class="section1-overview-text">Complete privacy from start to finish.</pn>
     
             </div>
+          </div>
 <div class="ha" ><button href="#/" class="button haha button-border button-rounded button-primary">Download wallet</button>
 <button href="#/" class="button haha button-rounded" disabled>Whitepaper coming soon</button></div>
     <div class="et-hero-tabs-container">
@@ -37,12 +57,12 @@
       <a class="et-hero-tab" href="#community">Community</a>
       <a class="et-hero-tab" href="#wallets">Wallets</a>
       <a class="et-hero-tabbb" href="/roadmap.html">Roadmap</a>
-      <a  href="javascript:void(0);" style="background-image: url('img/bars.png'); background-size: contain; background-repeat: no-repeat; background-position: center center;" class="icon nav-toggle"></a>
+      <a  style="background-image: url('img/bars.png'); background-size: contain; background-repeat: no-repeat; background-position: center center; cursor: pointer;" class="icon nav-toggle" id="heyou"></a>
 
 
-            <div class=" main-nav" >
+            <div class="main-nav">
      
-                    <ul class="" id="nav-menu">
+                    <ul id="nav-menu" class="active">
                         <li><a href="#mission">Mission Statement</a></li>
                         <li><a href="#features">Features</a></li>
                         <li><a href="#community">Community</a></li>
@@ -178,19 +198,19 @@ Building an inclusive freedom-based ecosystem around the previous focuses.
 
 
          <div class="section1">
-            <div class="section3-home">
-                <h3 class="section1-heading"></h3>
+            <div class="section3-home-header">
+                <div class="section3-home-content">
                 <h3 class="section1-subheading">We are community driven.</h3>
                 <p class="section3-home-text"><br>As Wisp is an open source community driven project, our team consists of freelancers and communtiy members who donate their time and resources to the projects success. Everyone is encouraged to apply your ideas and skills to Wisp and we work together to help each other achieve our goals. Below are just some of the current contributors to Wisp Project. We operate under pen names to protect our privacy, but we are quite friendly and straightforward in chat. <br><br>@vvc @jbg @Hippiepyro @trainasauruswrecks @coinye @dandan123 @Tom14 <br>@Skull @huberhumphrey @Gandalf86 @Dave @dirge @shaybix</p>
-
+                </div>
      
-                        <ul class="social-media-icon-list" style="padding-top: 120px;">
+                        <ul class="social-media-icon-list" style="padding-top: 40px;">
     <h3 style="padding-bottom: 15px;">Join us today !</h3>
                             <li class="social-icon" style="margin-left: 0"><a href="https://twitter.com/WISP_Project" target="_blank"><img class="social-img" src="img/twitter.png" alt="Twitter"></a></li>
                             <li class="social-icon"><a href="https://discord.gg/D9Ha24K" target="_blank"><img class="social-img" src="img/discord.png" alt="Discord"></a></li>
                             <li class="social-icon"><a href="https://github.com/wispproject" target="_blank"><img class="social-img" src="img/github.png" alt="Github"></a></li>
                             <li class="social-icon"><a href="https://www.reddit.com/r/wispofficial" target="_blank"><img class="social-img" src="img/reddit.png" alt="Reddit"></a></li>
-                            <li class="social-icon"style="margin-right: 0"><a href="#" target="_blank" style="margin-right:0"><img class="social-img" src="img/bitcointalk.png" alt="Bitcointalk"></a></li>
+                            <li class="social-icon"style="margin-right: 0; margin-bottom: 100px;"><a href="#" target="_blank" style="margin-right:0"><img class="social-img" src="img/bitcointalk.png" alt="Bitcointalk"></a></li>
 
                         </ul>
 
@@ -206,21 +226,21 @@ Building an inclusive freedom-based ecosystem around the previous focuses.
                
              <div class="header-content">
     <img src="img/home/integrated_1440.png" style="width: 25%; height: 25%;margin-bottom: 25px;"></img>
-                 <div class="header-content-text page-heading--loaded">
+                 <div class="">
                      <h3 class="header-title"><span class="header-subtitle">Download a wallet</span></h3>
                      <p class="header-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras orci metus, aliquam quis orci quis, iaculis vehicula magna. Quisque vehicula.</p>
                  </div>
 
                  <div class="header-separator"></div>
       <div class="section__footer" style="margin-top: 50px;margin-bottom: 50px;">
-                <a href="#" class="button button-rounded button-border" style="margin: 10px;"><img style="margin-right: 5px;" src="img/icons/apple.svg" height="24"> Install for MacOS</a>
-                <a href="#" class="button button-rounded button-border" style="margin: 10px;"><img style="margin-right: 5px;" src="img/icons/windows.svg" height="24"> Install for Windows</a>
-                <a href="#" class="button button-rounded button-border" style="margin: 10px;"><img style="margin-right: 5px;" src="img/icons/linux.svg" height="24"> Install for Linux</a>
+                <a href="#" class="button button-rounded button-border" style="margin: 10px;"><img style="margin-right: 5px;" src="img/icons/apple.png" height="24"> Install for MacOS</a>
+                <a href="#" class="button button-rounded button-border" style="margin: 10px;"><img style="margin-right: 5px;" src="img/icons/windows.png" height="24"> Install for Windows</a>
+                <a href="#" class="button button-rounded button-border" style="margin: 10px;"><img style="margin-right: 5px;" src="img/icons/linux.png" height="24"> Install for Linux</a>
             </div>
-           <div class="header-content-text page-heading--loaded">
+           <div class="">
                      <h3 ><span >Or :</span></h3>
                  </div>
-                              <a href="#" class="button button-rounded button-border" style="margin: 10px;"><img style="margin-right: 5px;" src="img/icons/github.svg" height="24">Compile from source</a>
+                              <a href="#" class="button button-rounded button-border" style="margin: 10px;"><img style="margin-right: 5px;" src="img/icons/github.png" height="24">Compile from source</a>
              </div>
 
          </div>
