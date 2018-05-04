@@ -5,7 +5,14 @@
   width: 48rem;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 780px) {
+.containerr
+{
+    width: 30rem;
+}
+}
+
+@media screen and (max-width: 570px) {
 .containerr
 {
     width: 24rem;
