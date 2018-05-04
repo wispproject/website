@@ -34,6 +34,9 @@ html {
 
     height: 100%;
 
+    overflow-y: scroll;
+
+    overflow-x: hidden;
 }
 
 
@@ -749,7 +752,7 @@ body.stop-scrolling {
 
 .main-nav ul a {
     display: block;
-    width: calc(100% + 1.7rem);
+    width: 100%;
     margin-left: -0.85rem;
    /* padding: 0.85rem;*/
     padding-bottom: 12px;
