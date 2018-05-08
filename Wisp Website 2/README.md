@@ -1,6 +1,7 @@
 Todo list : <br />
 <br />
 
+Add a sitemap.xml <br />
 Add a favicon <br />
 Optimize image weight <br />
 Animate wisp logo <br />
