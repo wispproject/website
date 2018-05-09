@@ -1,6 +1,7 @@
 Todo list : <br />
 <br />
 
+Add a HTTP caching method <br />
 Add robot.txt file <br />
 Add a sitemap.xml <br />
 Add a favicon <br />
