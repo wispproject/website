@@ -1,6 +1,7 @@
 Todo list : <br />
 <br />
 
+Add robot.txt file <br />
 Add a sitemap.xml <br />
 Add a favicon <br />
 Optimize image weight <br />
