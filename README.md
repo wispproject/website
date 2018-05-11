@@ -1,3 +1,3 @@
 # website
 
-Repository for website development. The Github Pages version can be found at https://github.com/wispproject/wispproject.github.io
+Alternative Website proposal by 'Skull'. The Github Pages version by Tom14 can be found at https://github.com/wispproject/wispproject.github.io
